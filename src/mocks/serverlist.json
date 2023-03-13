@@ -1,0 +1,22 @@
+[
+  {
+    "ip": "82.146.61.233",
+    "port": 22003,
+    "playerCount": 0,
+    "playerSlots": 30,
+    "name": "Ð ÐµÑÐ¿ÑÐ±Ð»Ð¸ÐºÐ° ÐÐ¢Ð #TEST",
+    "version": "9.9n",
+    "passworded": true,
+    "httpPort": 22005
+  },
+  {
+    "ip": "194.169.160.149",
+    "port": 22003,
+    "playerCount": 3,
+    "playerSlots": 200,
+    "name": "FRIENDS RP",
+    "version": "1.6rp",
+    "passworded": false,
+    "httpPort": 22005
+  }
+]

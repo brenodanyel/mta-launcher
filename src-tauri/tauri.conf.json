@@ -1,0 +1,96 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "MTALauncher",
+    "version": "0.0.9"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true,
+      "fs": {
+        "scope": [
+          "*/*"
+        ],
+        "all": true
+      },
+      "http": {
+        "scope": [
+          "http://**",
+          "https://**",
+          "mtasa://**"
+        ],
+        "all": true,
+        "request": true
+      },
+      "shell": {
+        "all": true,
+        "execute": true,
+        "open": "^mtasa|http|https?://",
+        "sidecar": true,
+        "scope": [
+          {
+            "name": "find-mta-installation",
+            "cmd": "powershell",
+            "args": true
+          }
+        ]
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/256x256.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "MTALauncher",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": "2F21327206DDBD1F7D3AA76271C7AA3D0858FDED",
+        "digestAlgorithm": "sha256",
+        "timestampUrl": "http://timestamp.digicert.com/",
+        "webviewInstallMode": {
+          "type": "embedBootstrapper"
+        }
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "Starting...",
+        "width": 1000,
+        "center": true,
+        "decorations": true
+      }
+    ]
+  }
+}
