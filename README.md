@@ -19,4 +19,4 @@ Ele possui algumas funcionalidades como:
   
   - Front-end (Painel): 
     - Repositório: https://github.com/brenodanyel/mta-launcher-painel
-    - Link em produção: https://github.com/brenodanyel/mta-launcher-painel
+    - Link em produção: https://app.mta-launcher.com/
