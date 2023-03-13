@@ -1,6 +1,6 @@
 ## MTA Launcher
 
-Um aplicativo para windows que permite que os usuários tenham uma melhor experiência ao buscar por servidores de [MTA](https://mtasa.com).
+Um aplicativo para windows que permite que os usuários tenham uma melhor experiência ao buscar por servidores de um jogo online ([MTA](https://mtasa.com)).
 
 Ele possui algumas funcionalidades como:
   - Perfis de servidores: [Imagem](https://www.mta-launcher.com/carousel/3.png) [Imagem](https://user-images.githubusercontent.com/89032856/224749226-901005a2-a6b1-4ac4-85a0-8bd6c3f9a95b.png)
